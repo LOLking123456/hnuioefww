@@ -1,0 +1,309 @@
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Legend Handles Buyers")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Hoop Dreams GUI")
+
+KillingCheats:CreateButton("Inf Stamina (OP)", function()
+   game:GetService("Players").LocalPlayer.PlayerGui.Values.Stamina.Regen:Destroy()
+end)
+
+KillingCheats:CreateButton("Anti Contest", function()
+    local Number = 20
+  workspace.Gravity = tonumber(Number) or 196.2 -- falls back to default gravity if its not a number or a parsable number
+local mouse = game.Players.LocalPlayer:GetMouse()
+		local parted = false
+	
+	
+		local part = Instance.new("Part",game.Lighting)
+		part.Anchored = true
+		part.Size = Vector3.new(700,1,700)
+		part.Transparency = 0.9
+		part.TopSurface = "Smooth"
+	
+	
+	
+	
+		mouse.KeyDown:connect(function(key)
+			if key == "e" then
+				game.Players.LocalPlayer.Character:SetPrimaryPartCFrame(game.Players.LocalPlayer.Character:GetPrimaryPartCFrame()*CFrame.new(0, 12,0))
+			end
+		end)
+end)
+
+KillingCheats:CreateButton("Anti OOB", function()
+game.Workspace.ParkGameplay.Court1.HoopBuild:Destroy()
+game.Workspace.ParkGameplay.Court2.HoopBuild:Destroy()
+game.Workspace.ParkGameplay.Court3.HoopBuild:Destroy()
+game.Workspace.ParkGameplay.Court4.HoopBuild:Destroy()
+game.Workspace.ParkGameplay.Court5.HoopBuild:Destroy()
+game.Workspace.ParkGameplay.Court5.HoopBuild:Destroy()
+game.Workspace.ParkGameplay.Court6.HoopBuild:Destroy()
+game.Workspace.ParkGameplay.Court6.HoopBuild:Destroy()
+end)
+
+
+KillingCheats:CreateToggle("Streamer Mode", function(value)
+loadstring(game:HttpGet('https://pastebin.com/raw/inik7xjG'))()
+end)
+
+KillingCheats:CreateButton("Spin Right (J)", function()
+while wait(.1) do 
+ function onKeyPress(inputObject, gameProcessedEvent)
+        if inputObject.KeyCode == Enum.KeyCode.J then
+            Player = "LocalPlayer" --- you can still put any player name here
+
+AnimationId = "8713345323" --- add ID's from the bottom[/size]
+local Anim = Instance.new("Animation") --- Creates animation[/size]
+Anim.AnimationId = "rbxassetid://"..AnimationId ---- inserts the ID[/size]
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim) --- makes the animation a function[/size]
+k:Play() --Play the animation ----- Runs the animation.[/size]
+k:AdjustSpeed(1.5) --Set '1'
+        end
+end
+    game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+    end
+end)
+
+KillingCheats:CreateButton("Spin Left (K)", function()
+while wait(.1) do 
+ function onKeyPress(inputObject, gameProcessedEvent)
+        if inputObject.KeyCode == Enum.KeyCode.K then
+            Player = "LocalPlayer" --- you can still put any player name here
+
+AnimationId = "8713283524" --- add ID's from the bottom[/size]
+local Anim = Instance.new("Animation") --- Creates animation[/size]
+Anim.AnimationId = "rbxassetid://"..AnimationId ---- inserts the ID[/size]
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim) --- makes the animation a function[/size]
+k:Play() --Play the animation ----- Runs the animation.[/size]
+k:AdjustSpeed(1.5) --Set '1'
+        end
+end
+    game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+    end
+end)
+
+KillingCheats:CreateButton("Fake Pass (B)", function()
+while wait(.1) do 
+ function onKeyPress(inputObject, gameProcessedEvent)
+        if inputObject.KeyCode == Enum.KeyCode.B then
+            Player = "LocalPlayer" --- you can still put any player name here
+
+AnimationId = "9974870017" --- add ID's from the bottom[/size]
+local Anim = Instance.new("Animation") --- Creates animation[/size]
+Anim.AnimationId = "rbxassetid://"..AnimationId ---- inserts the ID[/size]
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim) --- makes the animation a function[/size]
+k:Play() --Play the animation ----- Runs the animation.[/size]
+k:AdjustSpeed(1.5) --Set '1'
+        end
+end
+    game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+    end
+end)
+
+KillingCheats:CreateButton("ThroughLegsRight (N)", function()
+while wait(.1) do 
+ function onKeyPress(inputObject, gameProcessedEvent)
+        if inputObject.KeyCode == Enum.KeyCode.N then
+            Player = "LocalPlayer" --- you can still put any player name here
+
+AnimationId = "9973171928" --- add ID's from the bottom[/size]
+local Anim = Instance.new("Animation") --- Creates animation[/size]
+Anim.AnimationId = "rbxassetid://"..AnimationId ---- inserts the ID[/size]
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim) --- makes the animation a function[/size]
+k:Play() --Play the animation ----- Runs the animation.[/size]
+k:AdjustSpeed(1.5) --Set '1'
+        end
+end
+    game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+    end
+end)
+
+KillingCheats:CreateButton("ThroughLegsLeft (M)", function()
+while wait(.1) do 
+ function onKeyPress(inputObject, gameProcessedEvent)
+        if inputObject.KeyCode == Enum.KeyCode.M then
+            Player = "LocalPlayer" --- you can still put any player name here
+
+AnimationId = "9973157226" --- add ID's from the bottom[/size]
+local Anim = Instance.new("Animation") --- Creates animation[/size]
+Anim.AnimationId = "rbxassetid://"..AnimationId ---- inserts the ID[/size]
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim) --- makes the animation a function[/size]
+k:Play() --Play the animation ----- Runs the animation.[/size]
+k:AdjustSpeed(1.5) --Set '1'
+        end
+end
+    game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+    end
+end)
+
+KillingCheats:CreateButton("Fake Shot (U)", function()
+while wait(.1) do 
+ function onKeyPress(inputObject, gameProcessedEvent)
+        if inputObject.KeyCode == Enum.KeyCode.U then
+            Player = "LocalPlayer" --- you can still put any player name here
+
+AnimationId = "9873714824" --- add ID's from the bottom[/size]
+local Anim = Instance.new("Animation") --- Creates animation[/size]
+Anim.AnimationId = "rbxassetid://"..AnimationId ---- inserts the ID[/size]
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim) --- makes the animation a function[/size]
+k:Play() --Play the animation ----- Runs the animation.[/size]
+k:AdjustSpeed(1.5) --Set '1'
+        end
+end
+    game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+    end
+end)
+
+KillingCheats:CreateButton("Ankles (I)", function()
+while wait(.1) do 
+ function onKeyPress(inputObject, gameProcessedEvent)
+        if inputObject.KeyCode == Enum.KeyCode.I then
+            Player = "LocalPlayer" --- you can still put any player name here
+
+AnimationId = "9970301003" --- add ID's from the bottom[/size]
+local Anim = Instance.new("Animation") --- Creates animation[/size]
+Anim.AnimationId = "rbxassetid://"..AnimationId ---- inserts the ID[/size]
+local k = game.Players[Player].Character.Humanoid:LoadAnimation(Anim) --- makes the animation a function[/size]
+k:Play() --Play the animation ----- Runs the animation.[/size]
+k:AdjustSpeed(1.5) --Set '1'
+        end
+end
+    game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+    end
+end)
+KillingCheats:CreateSlider("Silent Acceleration", 14, 25, 0, false, function(v)
+if not getgenv().MTAPIMutex then if getgenv().MTAPIMutex~=nil then return end;local function a()if is_protosmasher_caller~=nil then return 0 end;if elysianexecute~=nil then return 1 end;if fullaccess~=nil then return 2 end;if Synapse~=nil then return 3 end;return 4 end;local function b()local c=a()if c==0 then return is_protosmasher_caller end;if c==1 or c==3 then return checkcaller end;if c==2 then return IsLevel7 end;return nil end;if a()==2 then error("mt-api: Exploit not supported")end;local d={}local e={}local f={}local g={}local h={}local i={}local j={}local k={}local function l()local m=a()local n=b()local o=getrawmetatable(game)if m==0 then make_writeable(o)elseif m==2 then fullaccess(o)else setreadonly(o,false)end;local p=o.__index;local q=o.__newindex;local r=o.__namecall;o.__index=newcclosure(function(s,t)if n()then return p(s,t)end;if d[s]and d[s][t]then local u=d[s][t]if u["IsCallback"]==true then return u["Value"](s)else return u["Value"]end end;if g[t]then local v=g[t]if v["IsCallback"]==true then return v["Value"](s)else return v["Value"]end end;if j[s]and j[s][t]then return k[s][t]end;return p(s,t)end)o.__newindex=newcclosure(function(w,x,y)if n()then return q(w,x,y)end;if e[w]and e[w][x]then local z=e[w][x]if z["Callback"]==nil then return else z["Callback"](w,y)return end end;if h[x]then local A=h[x]if A["Callback"]==nil then return else A["Callback"](w,y)return end end;if j[w]and j[w][x]then local B=j[w][x]if type(y)~=B["Type"]then error("bad argument #3 to '"..x.."' ("..B["Type"].." expected, got "..type(x)..")")end;k[w][x]=y;return end;return q(w,x,y)end)local C=isluau and isluau()or false;o.__namecall=newcclosure(function(D,...)local E={...}local F=C and getnamecallmethod()or table.remove(E)if n()then if F=="AddGetHook"then if#E<1 then error("mt-api: Invalid argument count")end;local G=E[1]local H=E[2]local I=E[3]if type(G)~="string"then error("mt-api: Invalid hook type")end;if not d[D]then d[D]={}end;if I==true and type(H)~="function"then error("mt-api: Invalid callback function")end;d[D][G]={Value=H,IsCallback=I}local J=function()d[D][G]=nil end;return{remove=J,Remove=J}end;if F=="AddGlobalGetHook"then local K=E[1]local L=E[2]local M=E[3]if type(K)~="string"then error("mt-api: Invalid hook type")end;if M==true and type(L)~="function"then error("mt-api: Invalid callback function")end;g[K]={Value=L,IsCallback=M}local N=function()g[K]=nil end;return{remove=N,Remove=N}end;if F=="AddSetHook"then if#E<1 then error("mt-api: Invalid argument count")end;local O=E[1]local P=E[2]if type(O)~="string"then error("mt-api: Invalid hook type")end;if not e[D]then e[D]={}end;if type(P)=="function"then e[D][O]={Callback=P}else e[D][O]={Callback=nil}end;local Q=function()e[D][O]=nil end;return{remove=Q,Remove=Q}end;if F=="AddGlobalSetHook"then if#E<1 then error("mt-api: Invalid argument count")end;local R=E[1]local S=E[2]if type(R)~="string"then error("mt-api: Invalid hook type")end;if type(S)=="function"then h[R]={Callback=S}else h[R]={Callback=nil}end;local T=function()h[R]=nil end;return{remove=T,Remove=T}end;if F=="AddCallHook"then if#E<2 then error("mt-api: Invalid argument count")end;local U=E[1]local V=E[2]if type(U)~="string"then error("mt-api: Invalid hook type")end;if type(V)~="function"then error("mt-api: Invalid argument #2 (not function)")end;if not f[D]then f[D]={}end;f[D][U]={Callback=V}local W=function()f[D][U]=nil end;return{remove=W,Remove=W}end;if F=="AddGlobalCallHook"then if#E<2 then error("mt-api: Invalid argument count")end;local X=E[1]local Y=E[2]if type(X)~="string"then error("mt-api: Invalid hook type")end;if type(Y)~="function"then error("mt-api: Invalid argument #2 (not function)")end;i[X]={Callback=Y}local Z=function()i[X]=nil end;return{remove=Z,Remove=Z}end;if F=="AddPropertyEmulator"then if#E<1 then error("mt-api: Invalid argument count")end;local _=E[1]if type(_)~="string"then error("mt-api: Invalid hook type")end;local a0=p(D,_)local a1=type(a0)if not j[D]then j[D]={}end;if not k[D]then k[D]={}end;j[D][_]={Type=a1}k[D][_]=p(D,_)local a2=function()j[D][_]=nil;k[D][_]=nil end;return{remove=a2,Remove=a2}end;return r(D,...)end;if f[D]and f[D][F]then local a3=f[D][F]return a3["Callback"](p(D,F),unpack(E))end;if i[F]then local a4=i[F]return a4["Callback"](D,p(D,F),unpack(E))end;return r(D,...)end)if m==0 then make_readonly(o)elseif m==2 then else setreadonly(o,true)end end;l()getgenv().MTAPIMutex=true end
+		game.Players.LocalPlayer.Character.Humanoid:AddPropertyEmulator("WalkSpeed")
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (v)
+end)
+
+
+KillingCheats:CreateSlider("Hitbox Size OP", 0, 8, 0, false, function(v)
+ _G.Resized = false
+
+	local Player = game:GetService('Players').LocalPlayer
+			_G.Resized = not _G.Resized
+			if _G.Resized == true then
+				Player.Character['LeftHand'].Size = Vector3.new(5, (v), 5)
+				Player.Character['RightHand'].Size = Vector3.new(5, (v), 5)
+end
+end)
+
+KillingCheats:CreateButton("Tp To Park", function()
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-149.37117, 3.34662461, 29.6224079, 0.996402442, 8.66231247e-08, -0.0847473666, -8.70452155e-08, 1, -1.28550703e-09, 0.0847473666, 8.65773497e-09, 0.996402442)
+end)
+
+
+KillingCheats:CreateButton("N To Fly", function()
+local plr = game.Players.LocalPlayer
+local mouse = plr:GetMouse()
+
+localplayer = plr
+
+if workspace:FindFirstChild("Core") then
+workspace.Core:Destroy()
+end
+
+local Core = Instance.new("Part")
+Core.Name = "Core"
+Core.Size = Vector3.new(0.05, 0.05, 0.05)
+
+spawn(function()
+Core.Parent = workspace
+local Weld = Instance.new("Weld", Core)
+Weld.Part0 = Core
+Weld.Part1 = localplayer.Character.LowerTorso
+Weld.C0 = CFrame.new(0, 0, 0)
+end)
+
+workspace:WaitForChild("Core")
+
+local torso = workspace.Core
+flying = true
+local speed=10
+local keys={a=false,d=false,w=false,s=false}
+local e1
+local e2
+local function start()
+local pos = Instance.new("BodyPosition",torso)
+local gyro = Instance.new("BodyGyro",torso)
+pos.Name="EPIXPOS"
+pos.maxForce = Vector3.new(math.huge, math.huge, math.huge)
+pos.position = torso.Position
+gyro.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+gyro.cframe = torso.CFrame
+repeat
+wait()
+localplayer.Character.Humanoid.PlatformStand=true
+local new=gyro.cframe - gyro.cframe.p + pos.position
+if not keys.w and not keys.s and not keys.a and not keys.d then
+speed=5
+end
+if keys.w then
+new = new + workspace.CurrentCamera.CoordinateFrame.lookVector * speed
+speed=speed+0
+end
+if keys.s then
+new = new - workspace.CurrentCamera.CoordinateFrame.lookVector * speed
+speed=speed+0
+end
+if keys.d then
+new = new * CFrame.new(speed,0,0)
+speed=speed+0
+end
+if keys.a then
+new = new * CFrame.new(-speed,0,0)
+speed=speed+0
+end
+if speed>10 then
+speed=5
+end
+pos.position=new.p
+if keys.w then
+gyro.cframe = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(-math.rad(speed*0),0,0)
+elseif keys.s then
+gyro.cframe = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(math.rad(speed*0),0,0)
+else
+gyro.cframe = workspace.CurrentCamera.CoordinateFrame
+end
+until flying == false
+if gyro then gyro:Destroy() end
+if pos then pos:Destroy() end
+flying=false
+localplayer.Character.Humanoid.PlatformStand=false
+speed=10
+end
+e1=mouse.KeyDown:connect(function(key)
+if not torso or not torso.Parent then flying=false e1:disconnect() e2:disconnect() return end
+if key=="w" then
+keys.w=true
+elseif key=="s" then
+keys.s=true
+elseif key=="a" then
+keys.a=true
+elseif key=="d" then
+keys.d=true
+elseif key=="n" then
+if flying==true then
+flying=false
+else
+flying=true
+start()
+end
+end
+end)
+e2=mouse.KeyUp:connect(function(key)
+if key=="w" then
+keys.w=false
+elseif key=="s" then
+keys.s=false
+elseif key=="a" then
+keys.a=false
+elseif key=="d" then
+keys.d=false
+end
+end)
+start()
+end)
+
